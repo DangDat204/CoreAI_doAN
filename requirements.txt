@@ -1,0 +1,7 @@
+opencv-python==4.8.0.76
+ultralytics==8.0.200
+mediapipe==0.10.3
+numpy==1.24.3
+insightface==0.7.3
+onnxruntime==1.16.1
+scipy==1.11.1
