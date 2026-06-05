@@ -12,7 +12,7 @@ MIN_DETECTION_SIZE = 30
 
 # Model Paths
 YOLO_PERSON_MODEL = "weights/yolo/person_detection.onnx"
-YOLO_SEATBELT_MODEL = "weights/yolo/seatbelt.pt"
+YOLO_SEATBELT_MODEL = "weights/yolo/seatbelt_detection.onnx"
 INSIGHTFACE_MODEL = "weights/face/insightface.onnx"
 FACEMESH_MODEL = "weights/face/facemesh.task"
 AGE_CLASSIFIER_MODEL = "weights/classification/age_classifier.onnx"
