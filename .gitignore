@@ -1,55 +1,55 @@
-# # Python
-# __pycache__/
-# *.py[cod]
-# *$py.class
-# *.so
-# .Python
-# build/
-# develop-eggs/
-# dist/
-# downloads/
-# eggs/
-# .eggs/
-# lib/
-# lib64/
-# parts/
-# sdist/
-# var/
-# wheels/
-# *.egg-info/
-# .installed.cfg
-# *.egg
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# # Virtual environments
-# venv/
-# ENV/
-# env/
+# Virtual environments
+venv/
+ENV/
+env/
 
-# # IDE
-# .vscode/
-# .idea/
-# *.swp
-# *.swo
-# *~
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# # Jupyter
-# .ipynb_checkpoints/
-# *.ipynb
+# Jupyter
+.ipynb_checkpoints/
 
-# # Data and outputs
-# data/sample_videos/*.mp4
-# data/outputs/screenshots/*
-# data/outputs/recordings/*
-# data/outputs/logs/*
-# data/known_faces/*.npy
+# Data and outputs (không push output lên git)
+data/outputs/screenshots/*
+data/outputs/recordings/*
+data/outputs/logs/*
+data/known_faces/*.npy
 
-# # Model weights (optional - uncomment if you want to ignore large model files)
-# # weights/
+# Dataset nặng - không push lên git (mỗi người tự tải về)
+data/seatbelt-detection.v4i.yolov8/
 
-# # System
-# .DS_Store
-# Thumbs.db
+# Model weights
+# *.pt được push lên để cả nhóm dùng chung (file nhỏ ~6MB)
+weights/**/*.onnx
 
-# # OS
-# .env
-# .env.local
+
+# System
+.DS_Store
+Thumbs.db
+.env
+.env.local
